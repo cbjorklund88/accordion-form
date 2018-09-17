@@ -2,3 +2,67 @@ html {
   background: #f2f1f4;
   color: #19171c;
 }
+h1 {
+  font-size: 30px;
+  border-bottom: 2px solid #fa5333;
+  padding-bottom: 15px;
+  font-weight: 900;
+  line-height: 1.125;
+  text-transform: uppercase;
+}
+
+.accordion {
+  margin: auto;
+  width: 50%;
+  font-family: "robotoblack_italic", sans-serif;
+  font-style: italic;
+}
+
+.title {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  padding: 15px;
+}
+
+a {
+  color: red;
+}
+
+.description{
+  display: none;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 15px;
+}
+
+.minus{
+  display: none;
+}
+
+.active > .plus{
+  display: none;
+}
+
+.active > .minus{
+  display: inline;
+}
+
+.active + .description{
+  display: block;
+}
+
+#section1, #section3 {
+  background-color: #e8e8e6;
+
+}
+
+#section1:hover, #section3:hover{
+  cursor: pointer;
+  background-color: #a5a2a2;
+}
+
+#section2 {
+  cursor: pointer;
+}
